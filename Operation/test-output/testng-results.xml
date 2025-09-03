@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-03T20:42:33 IST" name="Suite" finished-at="2025-09-03T20:43:47 IST" duration-ms="73865">
+    <groups>
+      <group name="sanity">
+        <method signature="operationTheatre_testcase.verifyTitleAndURLOfTheHomePage()[pri:1, instance:testcases.operationTheatre_testcase@2187fff7]" name="verifyTitleAndURLOfTheHomePage" class="testcases.operationTheatre_testcase"/>
+        <method signature="operationTheatre_testcase.goToOperationTheatreModuleVerifyTableHeaderName()[pri:2, instance:testcases.operationTheatre_testcase@2187fff7]" name="goToOperationTheatreModuleVerifyTableHeaderName" class="testcases.operationTheatre_testcase"/>
+        <method signature="operationTheatre_testcase.verifyBookingOTScheduleFormByClickingOnNewOTBookingButton()[pri:3, instance:testcases.operationTheatre_testcase@2187fff7]" name="verifyBookingOTScheduleFormByClickingOnNewOTBookingButton" class="testcases.operationTheatre_testcase"/>
+        <method signature="operationTheatre_testcase.verifyEnteredDataIsPresentInSelectPatientTextbox()[pri:4, instance:testcases.operationTheatre_testcase@2187fff7]" name="verifyEnteredDataIsPresentInSelectPatientTextbox" class="testcases.operationTheatre_testcase"/>
+        <method signature="operationTheatre_testcase.verifyPlaceholderNameOfTexboxIfTextboxIsEnabled()[pri:5, instance:testcases.operationTheatre_testcase@2187fff7]" name="verifyPlaceholderNameOfTexboxIfTextboxIsEnabled" class="testcases.operationTheatre_testcase"/>
+        <method signature="operationTheatre_testcase.verifyButtonIsPresentAfterSendValueToSurgenNameTextfield()[pri:6, instance:testcases.operationTheatre_testcase@2187fff7]" name="verifyButtonIsPresentAfterSendValueToSurgenNameTextfield" class="testcases.operationTheatre_testcase"/>
+        <method signature="operationTheatre_testcase.verifyPlusButtonIsPresentAfterClickOnExternalCheckbox()[pri:7, instance:testcases.operationTheatre_testcase@2187fff7]" name="verifyPlusButtonIsPresentAfterClickOnExternalCheckbox" class="testcases.operationTheatre_testcase"/>
+        <method signature="operationTheatre_testcase.verifyErrorMessageInAddExternalReferralForms()[pri:8, instance:testcases.operationTheatre_testcase@2187fff7]" name="verifyErrorMessageInAddExternalReferralForms" class="testcases.operationTheatre_testcase"/>
+        <method signature="operationTheatre_testcase.verifySuccessNotificationPopupMessage()[pri:9, instance:testcases.operationTheatre_testcase@2187fff7]" name="verifySuccessNotificationPopupMessage" class="testcases.operationTheatre_testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-09-03T20:42:33 IST" name="Test" finished-at="2025-09-03T20:43:47 IST" duration-ms="73865">
+      <class name="testcases.operationTheatre_testcase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:42:33 IST" name="initBrowser" finished-at="2025-09-03T20:42:40 IST" duration-ms="6764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifyTitleAndURLOfTheHomePage()[pri:1, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:42:40 IST" name="verifyTitleAndURLOfTheHomePage" description="Verify the title and url of  the current page." finished-at="2025-09-03T20:43:08 IST" duration-ms="27962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleAndURLOfTheHomePage -->
+        <test-method signature="goToOperationTheatreModuleVerifyTableHeaderName()[pri:2, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:10 IST" name="goToOperationTheatreModuleVerifyTableHeaderName" description="Verify that OperationTheatre module is present or not ?
+If OperationTheatre Module is present, 
+then go to OperationTheatre Page and 
+check whether the &quot;Hospital Number&quot; 
+header text is present or not in the given table" finished-at="2025-09-03T20:43:13 IST" duration-ms="3764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToOperationTheatreModuleVerifyTableHeaderName -->
+        <test-method signature="verifyBookingOTScheduleFormByClickingOnNewOTBookingButton()[pri:3, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:14 IST" name="verifyBookingOTScheduleFormByClickingOnNewOTBookingButton" description="• On the operation theatre modules, verify that
+New OT Booking button is present?
+• If New OT Booking button is presenrt then
+clicking it popups &quot;Booking OT Schedule | New Patient&quot; form." finished-at="2025-09-03T20:43:17 IST" duration-ms="2898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookingOTScheduleFormByClickingOnNewOTBookingButton -->
+        <test-method signature="verifyEnteredDataIsPresentInSelectPatientTextbox()[pri:4, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:17 IST" name="verifyEnteredDataIsPresentInSelectPatientTextbox" description="On the &quot;Booking OT Schedule | New Patient&quot; form&#039;s
+validate that
+Select Patient textbox
+Diagnosis textbox &amp;  
+Type of Surgery Textbox are present or not ?
+If present then fill the below textboxes :
+Select Patient textbox
+Diagnosis textbox
+Type of Surgery textbox
+Check the data which we are entered are present
+in Select Patient textbox or not ?" finished-at="2025-09-03T20:43:18 IST" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnteredDataIsPresentInSelectPatientTextbox -->
+        <test-method signature="verifyPlaceholderNameOfTexboxIfTextboxIsEnabled()[pri:5, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:18 IST" name="verifyPlaceholderNameOfTexboxIfTextboxIsEnabled" description="On the &quot;Booking OT Schedule | New Patient&quot; form&#039;s
+validate that Remarks field is present or not ?
+Verify &quot;Remarks&quot; Text area is enable and
+verify the placeholder name  of &quot;Remarks&quot; text area." finished-at="2025-09-03T20:43:20 IST" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceholderNameOfTexboxIfTextboxIsEnabled -->
+        <test-method signature="verifyButtonIsPresentAfterSendValueToSurgenNameTextfield()[pri:6, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:21 IST" name="verifyButtonIsPresentAfterSendValueToSurgenNameTextfield" description="On  the &quot;Booking OT Schedule | New Patient&quot; form&#039;s,
+type &quot;Dr. Pooja Mishra &quot; in surgen Name textfield and  verify the Dr. pooja mishra button  is present or not ?" finished-at="2025-09-03T20:43:25 IST" duration-ms="4748" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ Dr. pooja Mishra  ] but found [ Dr. ALEX OKELLO ONYIEGO  ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ Dr. pooja Mishra  ] but found [ Dr. ALEX OKELLO ONYIEGO  ]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testcases.operationTheatre_testcase.verifyButtonIsPresentAfterSendValueToSurgenNameTextfield(operationTheatre_testcase.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonIsPresentAfterSendValueToSurgenNameTextfield -->
+        <test-method signature="verifyPlusButtonIsPresentAfterClickOnExternalCheckbox()[pri:7, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:26 IST" name="verifyPlusButtonIsPresentAfterClickOnExternalCheckbox" description="On  the &quot;Booking OT Schedule | New Patient&quot; form&#039;s,
+click on the &quot;External?&quot; checkbox and 
+verify the check box is selected or not ?" finished-at="2025-09-03T20:43:29 IST" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlusButtonIsPresentAfterClickOnExternalCheckbox -->
+        <test-method signature="verifyErrorMessageInAddExternalReferralForms()[pri:8, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:29 IST" name="verifyErrorMessageInAddExternalReferralForms" description="On the &quot;Add External Refferal&quot; form&#039;s, 
+when we click on add button without filling any information, 
+Verify the error message (Referrer Name is required)" finished-at="2025-09-03T20:43:34 IST" duration-ms="4649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageInAddExternalReferralForms -->
+        <test-method signature="verifySuccessNotificationPopupMessage()[pri:9, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:34 IST" name="verifySuccessNotificationPopupMessage" description="On  the &quot;Booking OT Schedule | New Patient&quot; form&#039;s, 
+External? Checkbox must be selected.
+Click on &quot;+&quot; icon to popup the Add External Referral form
+then fill all the details (get the data from excel),
+click on all checkbox and then click on &quot;Add&quot; button
+then verify the success notifications message." finished-at="2025-09-03T20:43:46 IST" duration-ms="11786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessNotificationPopupMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.operationTheatre_testcase@2187fff7]" started-at="2025-09-03T20:43:46 IST" name="tearDown" finished-at="2025-09-03T20:43:47 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.operationTheatre_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
