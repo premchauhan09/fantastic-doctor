@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-03T20:24:04 IST" name="Suite" finished-at="2025-09-03T20:24:38 IST" duration-ms="34389">
+    <groups>
+      <group name="sanity">
+        <method signature="doctor_testcase.verifyTitleOfTheHomePage()[pri:1, instance:testcases.doctor_testcase@2187fff7]" name="verifyTitleOfTheHomePage" class="testcases.doctor_testcase"/>
+        <method signature="doctor_testcase.verifyAllSubModulesArePresent()[pri:2, instance:testcases.doctor_testcase@2187fff7]" name="verifyAllSubModulesArePresent" class="testcases.doctor_testcase"/>
+        <method signature="doctor_testcase.validateTheCheckBox()[pri:3, instance:testcases.doctor_testcase@2187fff7]" name="validateTheCheckBox" class="testcases.doctor_testcase"/>
+        <method signature="doctor_testcase.selectNEUROSURGERYFromDepartmentDropdownAndVerifySelection()[pri:4, instance:testcases.doctor_testcase@2187fff7]" name="selectNEUROSURGERYFromDepartmentDropdownAndVerifySelection" class="testcases.doctor_testcase"/>
+        <method signature="doctor_testcase.verifyTheButtonsArePresentOrNot()[pri:5, instance:testcases.doctor_testcase@2187fff7]" name="verifyTheButtonsArePresentOrNot" class="testcases.doctor_testcase"/>
+        <method signature="doctor_testcase.verifyTitleOfTheForm()[pri:6, instance:testcases.doctor_testcase@2187fff7]" name="verifyTitleOfTheForm" class="testcases.doctor_testcase"/>
+        <method signature="doctor_testcase.verifyTheName()[pri:7, instance:testcases.doctor_testcase@2187fff7]" name="verifyTheName" class="testcases.doctor_testcase"/>
+        <method signature="doctor_testcase.verifyTheErrorMessage()[pri:8, instance:testcases.doctor_testcase@2187fff7]" name="verifyTheErrorMessage" class="testcases.doctor_testcase"/>
+        <method signature="doctor_testcase.performScrollingOpertaionAndVerifyThePresenceOfButton()[pri:9, instance:testcases.doctor_testcase@2187fff7]" name="performScrollingOpertaionAndVerifyThePresenceOfButton" class="testcases.doctor_testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-09-03T20:24:04 IST" name="Test" finished-at="2025-09-03T20:24:38 IST" duration-ms="34389">
+      <class name="testcases.doctor_testcase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:04 IST" name="initBrowser" finished-at="2025-09-03T20:24:09 IST" duration-ms="5278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifyTitleOfTheHomePage()[pri:1, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:09 IST" name="verifyTitleOfTheHomePage" description="Verify Title &amp; URL: Check if the title  &amp; URL matches the expected title" finished-at="2025-09-03T20:24:12 IST" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfTheHomePage -->
+        <test-method signature="verifyAllSubModulesArePresent()[pri:2, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:13 IST" name="verifyAllSubModulesArePresent" description="Verify that Doctor module is present or not ,If Present then expand the Doctor module and verify all presence of sub mudules under the Doctor module" finished-at="2025-09-03T20:24:23 IST" duration-ms="10627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllSubModulesArePresent -->
+        <test-method signature="validateTheCheckBox()[pri:3, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:24 IST" name="validateTheCheckBox" description="On the Doctor Module&#039;s &quot;Out Patient&quot; Sub module, select the &quot;Show Doctor Wise Patient List&quot; check box and verify that is &quot;Show Doctor Wise Patient List&quot; check box is selected or not? After validation, uncheck the &quot;Show Doctor Wise Patient List&quot; check box" finished-at="2025-09-03T20:24:24 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheCheckBox -->
+        <test-method signature="selectNEUROSURGERYFromDepartmentDropdownAndVerifySelection()[pri:4, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:25 IST" name="selectNEUROSURGERYFromDepartmentDropdownAndVerifySelection" description="On the Doctor Module&#039;s &quot;In Patient Department&quot; Sub-Module,
+verify that &quot;Department filter&quot; dropdown is Present.
+If present, then select the &quot;NEUROSURGERY&quot;
+from the &quot;Department filter&quot; dropdown and 
+validate  &quot;NEUROSURGERY&quot; is selected or not?" finished-at="2025-09-03T20:24:27 IST" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNEUROSURGERYFromDepartmentDropdownAndVerifySelection -->
+        <test-method signature="verifyTheButtonsArePresentOrNot()[pri:5, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:27 IST" name="verifyTheButtonsArePresentOrNot" description="On the Doctor Module&#039;s &quot;In Patient Department&quot; Sub-Module, verify that &quot;My Favorites&quot; and &quot;Pending List&quot; buttons are present inside the 
+&quot;In Patient Department&quot; Page" finished-at="2025-09-03T20:24:28 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheButtonsArePresentOrNot -->
+        <test-method signature="verifyTitleOfTheForm()[pri:6, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:28 IST" name="verifyTitleOfTheForm" description="On the Doctor Module&#039;s &quot;In Patient Department&quot; Sub-Module, clicking on &quot;Pending List&quot; buttons and it opens pending table record.
+Then click on &quot;Show Details&quot; from the first table record and it open the &quot;Free Text Template&quot; form. Then validate the title name of the  &quot;Free Text Template&quot; form" finished-at="2025-09-03T20:24:31 IST" duration-ms="3471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfTheForm -->
+        <test-method signature="verifyTheName()[pri:7, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:31 IST" name="verifyTheName" description="On the Doctor Module&#039;s &quot;In Patient Department&quot; Sub-Module, a table record pre display which is filter by department as  &quot;NEUROSURGERY&quot;.
+Then get the &quot;Doctor Name&quot; where the &quot;Hospital Number&quot; is &quot;2312000010&quot;.
+Then Validate the Doctor Name is Dr. Amit Shah" finished-at="2025-09-03T20:24:34 IST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="verifyTheErrorMessage()[pri:8, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:35 IST" name="verifyTheErrorMessage" description="On the &quot;Surgical History&quot; Menu Tab of Problem module of the Profile &quot;Sonia Gandhi&quot;, clicking on the &quot;+Add New&quot; button from Surgical History List and it will open a &quot;Add Surgical History&quot; form.
+Then click on &quot;Add&quot; button of &quot;Add Surgical History&quot; form directly without filling any information, it will throw an error message in &quot;Search Problem*&quot; field. 
+Then Validate that Error Message : Select ICD-11 Code" finished-at="2025-09-03T20:24:37 IST" duration-ms="2694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessage -->
+        <test-method signature="performScrollingOpertaionAndVerifyThePresenceOfButton()[pri:9, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:38 IST" name="performScrollingOpertaionAndVerifyThePresenceOfButton" description="On the Profile &quot;Sonia Gandhi&quot;, Scroll to the &quot;Discharge Summary&quot; Module which is present in the left navigation.
+Click on &quot;Discharge Summary&quot; and it will navigate to the &quot;DischargeSummary&quot; page.
+Then scroll to the buttom of the page and verify that the &quot;Save&quot; button is present or not." finished-at="2025-09-03T20:24:38 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method performScrollingOpertaionAndVerifyTheUpdateButtonIsPresent() is undefined for the type doctor_Pages
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method performScrollingOpertaionAndVerifyTheUpdateButtonIsPresent() is undefined for the type doctor_Pages
+
+at testcases.doctor_testcase.performScrollingOpertaionAndVerifyThePresenceOfButton(doctor_testcase.java:164)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performScrollingOpertaionAndVerifyThePresenceOfButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.doctor_testcase@2187fff7]" started-at="2025-09-03T20:24:38 IST" name="tearDown" finished-at="2025-09-03T20:24:38 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.doctor_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
